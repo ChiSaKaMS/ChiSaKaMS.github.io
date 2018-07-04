@@ -1,0 +1,95 @@
+/* 品牌活动 */
+#jnBrand {
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 790px;
+}
+#jnBrandTab {
+    border-bottom: 1px solid #E4E4E4;
+    height: 29px;
+    position: relative;
+    width: 790px;
+    float: left;
+}
+#jnBrandTab h2 {
+    height: 29px;
+    line-height: 29px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+#jnBrandTab ul {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#jnBrandTab li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+#jnBrandTab li a {
+    background-color: #E4E4E4;
+    color: #000000;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+#jnBrandTab .chos {
+    background: url("../images/chos.gif") no-repeat scroll 50% bottom transparent;
+    padding-bottom: 3px;
+}
+#jnBrandTab .chos a {
+    background-color: #FA5889;
+    color: #FFFFFF;
+    outline: 0 none;
+}
+#jnBrandContent {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    margin: 8px 5px;
+    width: 790px;
+	position: relative;
+}
+#jnBrandList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3200px;
+}
+#jnBrandContent li {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    width: 185px;
+}
+#jnBrandContent li img {
+    left: 5px;
+    position: absolute;
+    top: 0;
+}
+#jnBrandContent li span {
+    background-color: #EFEFEF;
+    bottom: 0;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 183px;
+}
+#jnBrandContent li a {
+	color:#666666;
+}
+#jnBrandContent li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}

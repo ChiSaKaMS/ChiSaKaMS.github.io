@@ -1,0 +1,55 @@
+/* 最新动态 */
+#jnNotice{
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 230px;
+}
+#jnMiaosha {
+    float: left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 230px;
+}
+.JS_css3 img {
+	-webkit-transition:1s all;
+	-moz-transition:1s all;
+	-o-transition:1s all;
+	transition:1s all;
+}
+.JS_css3:hover img {
+	-webkit-transform:rotate(720deg);
+	-moz-transform:rotate(720deg);
+	-o-transform:rotate(720deg);
+	transform:rotate(720deg);
+}
+#jnNoticeInfo {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 133px;
+    overflow: hidden;
+    width: 228px;
+}
+#jnNoticeInfo h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+	text-indent:12px;
+}
+#jnNoticeInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+}
+#jnNoticeInfo li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+#jnNoticeInfo li a{
+	color:#666666;
+}
+#jnNoticeInfo li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
